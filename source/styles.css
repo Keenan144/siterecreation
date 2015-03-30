@@ -1,0 +1,267 @@
+body {
+  background-image: url("jm_011.jpg")
+
+}
+
+
+
+/*------------------- TOP RIGHT NAV BAR-------------------*/
+#interact_with_jason{
+  float: right;
+  background: transparent; 
+  top: 20px;
+  right: -20px;
+  position: absolute;
+}
+
+#share_bar{
+  list-style: none;
+  display: inline;
+  /*position: fixed;*/
+}
+
+#share_bar .share{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+#share_bar .mailing_list{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+#share_bar .login{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+#share_bar .register{
+  position: relative;
+  float: left;
+  margin-right: 3px;
+}
+/*---------------------------------------------------------*/
+
+
+
+/*-------------------- TOP LEFT NAV BAR--------------------*/
+
+#main_nav_bar{
+  float: left;
+  background: transparent;
+  font-size: 22px;
+  top: 20px;
+  position: absolute;
+}
+#nav_bar{
+  list-style: none;
+  display: inline;
+}
+#nav_bar .home{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .news{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .journal{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .tour{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .media{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .store{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .friends{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .foundation{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#nav_bar .community{
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+/*---------------------------------------------------------*/
+
+/*-------------------- Jason Mraz Logo --------------------*/
+
+.jason_logo{
+  top: 120px;
+  position: absolute;
+  margin-left: 30%;
+
+}
+#logo{
+  font-size: 69px;
+  color: white;
+}
+
+/*---------------------------------------------------------*/
+
+/*-------------------- Jason Mraz Image --------------------*/
+
+.main_image{
+  position: absolute; 
+  margin-left: -42%;
+}
+
+/*---------------------------------------------------------*/
+
+/*-------------------- Jason Mraz Columns --------------------*/
+
+.columns_left{
+  position: absolute;
+  top: 478px;
+  right: 182px;
+}
+.column_left{
+  list-style: none;
+  color: white;
+  background-color: grey;
+  padding-right: 125px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 28px;
+  width: 224px;
+  background: rgb(0, 0, 0); /* Fallback */
+  background: rgba(0, 0, 0, 0.2);
+}
+#recent_news{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.columns_right{
+  position: absolute;
+  top: 478px;
+  left: 266px;
+  background-color: grey;
+  padding-right: 100px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 26px;
+  height: 28px;
+  width: 256px;
+  background: rgb(0, 0, 0); /* Fallback */
+  background: rgba(0, 0, 0, 0.2);
+}
+.column_right{
+  list-style: none;
+  color: white;
+  opacity: 1.0;
+}
+
+#upcoming_shows{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.space_bar{
+  position: absolute;
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 1.0);
+  width: 858px;
+  height: 15px;
+  top: 478px;
+  left: -186px;
+}
+
+#content{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+  margin-top: 6px;
+  /*position: absolute;*/
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 0.65);
+}
+#header_content{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+#contentR1{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-top: 6px;
+  top: 74px;
+  right: 0px;
+  width: 385px;
+  position: absolute;
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 0.65);
+}
+#contentR2{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+  margin-top: 6px;
+  top: 227px;
+  right: 0px;
+  width: 385px;
+  position: absolute;
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 0.65);
+}
+#error_message{
+  top: 1000px;
+  position: absolute;
+}
+#contentR3{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+  margin-top: 6px;
+  top: 145px;
+  right: 0px;
+  width: 385px;
+  position: absolute;
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 0.65);
+}
+#contentR4{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+  margin-top: 6px;
+  top: 308px;
+  right: 0px;
+  width: 385px;
+  position: absolute;
+  display: block;
+  background: rgb(1000, 1000, 1000); /* Fallback */
+  background: rgba(220, 220, 220, 0.65);
+}
